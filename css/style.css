@@ -2,10 +2,28 @@
     font-family: Noelan;
     src: url(../fonts/noelan.otf);
 }
+@font-face {
+    font-family: "Nanum";
+    src: url(../fonts/nanum.ttf);
+}
+@font-face {
+    font-family: "Nanum bold";
+    src: url(../fonts/nanumBold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Milasian Circa";
+    src: url(../fonts/milasianCirca.ttf);
+}
 
 h1 {
-    font-family: Noelan;
-    color: rgb(63, 63, 63);
+    font-family: "Milasian Circa";
+    /* color:#b6483e; */
+    color: rgb(102, 102, 102);
+    text-shadow: 0 1px 2px rgb(102, 102, 102);
+    font-size: 500%;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 body {
@@ -35,7 +53,7 @@ nav {
 }
 
 #dd1 li a {
-    /* color: #78A480; */
+    color:#b6483e;
 }
 
 .nav-wrapper {
@@ -58,6 +76,30 @@ nav {
     margin: 2px;
 }
 
-#center-img {
+.center-img {
     margin: 0 auto;
+}
+
+p {
+    /* text-shadow: 0 .5px .5px black; */
+    font-size: 125%;
+    color: rgb(102, 102, 102);
+    font-family: "Nanum";
+}
+
+p b {
+    font-family: "Nanum bold";
+    font-weight: bold;
+}
+
+.text-pad {
+    padding: 0 25px 0 25px;
+}
+.divider {
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+
+.brand-logo {
+    margin-left: 15px;
 }
