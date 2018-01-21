@@ -85,6 +85,7 @@ p {
     font-size: 125%;
     color: rgb(102, 102, 102);
     font-family: "Nanum";
+    line-height: 120%;
 }
 
 p b {
@@ -102,4 +103,21 @@ p b {
 
 .brand-logo {
     margin-left: 15px;
+}
+
+@media screen and (max-width: 768px){
+    .brand-logo {
+        margin-left: 0; 
+    }
+}
+@media screen and (max-width: 425px) {
+    h1 {
+        font-size: 400%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h1 {
+        font-size: 300%;
+    }
 }
